@@ -1,5 +1,5 @@
-FROM quay.io/pires/docker-jre:8u92-alpine34
-MAINTAINER pjpires@gmail.com
+FROM bryanl/docker-jre:8.92.14-r1
+MAINTAINER bryanliles@gmail.com
 
 # Export HTTP & Transport
 EXPOSE 9200 9300
